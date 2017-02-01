@@ -4,7 +4,7 @@
         <project name="innfinite4evr/android_device_asus_Z00L" path="device/asus/Z00L" remote="github" revision="cm-14.1" />
         <project name="innfinite4evr/android_device_asus_msm8916-common" path="device/asus/msm8916-common" remote="github" revision="cm-14.1" />
         <project name="innfinite4evr/android_kernel_asus_msm8916" path="kernel/asus/msm8916" remote="github" revision="cm-14.1" />
-	    <project name="innfinite4evr/android_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
+	<project name="innfinite4evr/android_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
         <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
 
 <!-- HALS-->
@@ -15,6 +15,6 @@
         <project path="hardware/qcom/audio-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="n7x-caf-8916" />
         <project path="hardware/qcom/wlan-caf"  name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="cm-14.1-caf" />
         <project path="hardware/qcom/display-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="n7x-caf-8916" />
-	    <project path="hardware/qcom/media-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x-caf-8916" />
+	<project path="hardware/qcom/media-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x-caf-8916" />
 
 </manifest>
