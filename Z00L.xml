@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="bb"
-        fetch="https://bitbucket.org" />
 <!-- Device Tree,Vendror,kernel,Common-Device-Tree -->
         <project name="LineageOS/android_device_asus_Z00L" path="device/asus/Z00L" remote="github" revision="cm-14.1" />
         <project name="LineageOS/android_device_asus_msm8916-common" path="device/asus/msm8916-common" remote="github" revision="cm-14.1" />
