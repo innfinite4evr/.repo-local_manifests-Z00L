@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<!-- Device Tree,Vendror,kernel,Common-Device-Tree -->
-        <project name="LineageOS/android_device_asus_Z00L" path="device/asus/Z00L" remote="github" revision="cm-14.1" />
-        <project name="LineageOS/android_device_asus_msm8916-common" path="device/asus/msm8916-common" remote="github" revision="cm-14.1" />
-        <project name="LineageOS/android_kernel_asus_msm8916" path="kernel/asus/msm8916" remote="github" revision="cm-14.1" />
-	<project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-14.1" />
-        <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
-
-<!-- HALS-->
-        <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="cm-14.1" />
-        <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="cm-14.1" />
-        <project name="LineageOS/android_hardware_ril" path="hardware/ril-caf" remote="github" revision="cm-14.1-caf" />
-        <project path="hardware/qcom/fm" name="DirtyUnicorns/android_hardware_qcom_fm" remote="github" revision="n7x-caf" />
-        <project path="hardware/qcom/audio-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="n7x-caf-8916" />
-        <project path="hardware/qcom/wlan-caf"  name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="cm-14.1-caf" />
-        <project path="hardware/qcom/display-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="n7x-caf-8916" />
-	<project path="hardware/qcom/media-caf/msm8916" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x-caf-8916" />
-
+<?xml version="1.0" encoding="UTF-8"?> <manifest> <!-- 
+HALS-->
+        <project name="Citrus-CAF/hardware_ril" 
+path="hardware/ril-caf" remote="github" revision="n" />
+        <project path="hardware/qcom/audio-caf/msm8916" 
+name="Citrus-CAF/hardware_qcom_audio" remote="github" 
+revision="n-8916" />
+        <project path="hardware/qcom/wlan-caf" 
+name="Citrus-CAF/hardware_qcom_wlan" remote="github" 
+revision="n-8916" />
+        <project path="hardware/qcom/display-caf/msm8916" 
+name="Citrus-CAF/hardware_qcom_display" remote="github" 
+revision="n-8916" />
+	<project path="hardware/qcom/media-caf/msm8916" 
+name="Citrus-CAF/hardware_qcom_media" remote="github" 
+revision="n-8916" />
 </manifest>
